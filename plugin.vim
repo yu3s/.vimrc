@@ -1,5 +1,4 @@
 call plug#begin('~/.vim/plugged')
-Plug 'mhinz/vim-signify'
 Plug 'Raimondi/delimitMate'
 Plug 'xyrh/global.vim'
 Plug 'easymotion/vim-easymotion'
@@ -8,7 +7,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'morhetz/gruvbox'
 Plug 'maralla/completor.vim'
 Plug 'tpope/vim-fugitive'
-Plug 'sheerun/vim-polyglot'
+Plug 'airblade/vim-gitgutter'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'inkarkat/vim-ingo-library' | Plug 'inkarkat/vim-mark'

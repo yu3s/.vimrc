@@ -73,4 +73,4 @@ nnoremap <M-g> :call JumpFuncName()<CR>
 nnoremap <M-h> :History<CR>
 nmap <M-m> <Plug>MarkSet
 nmap <M-l> <Plug>MarkAllClear
-nnoremap <nowait> \ :NnnPicker %:p:h<CR>
+"nnoremap <nowait> \ :NnnPicker %:p:h<CR>

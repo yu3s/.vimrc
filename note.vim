@@ -43,3 +43,7 @@ else
 fi
 
 echo -e "\e]51;[\"call\", \"Tapi_TabDrop\", [\"$path\"]]\x07"
+
+
+" \
+nnoremap <nowait> \ :NnnPicker %:p:h<CR>
