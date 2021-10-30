@@ -7,11 +7,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'itchyny/lightline.vim'
 Plug 'morhetz/gruvbox'
 Plug 'maralla/completor.vim'
-" Plug 'vim-scripts/L9'
-" Plug 'othree/vim-autocomplpop'
-Plug 'mcchrish/nnn.vim'
 Plug 'tpope/vim-fugitive'
-Plug 'junegunn/gv.vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
@@ -48,12 +44,3 @@ let g:ft_man_open_mode = 'vert'
 
 " vim-mark
 let g:mw_no_mappings = 1
-
-" nnn.vim
-let g:nnn#set_default_mappings = 0
-let g:nnn#replace_netrw = 1
-let g:nnn#layout = { 'left': '~30%' } " or right, up, down
-let g:nnn#action = {
-      \ '<c-t>': 'tab split',
-      \ '<c-x>': 'split',
-      \ '<c-v>': 'vsplit' }
